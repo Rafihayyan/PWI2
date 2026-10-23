@@ -13,9 +13,9 @@
     <title>Hello, world!</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     @include('layouts.navbar')
-    <div class="container mt-3">
+    <div class="container mt-3 flex-grow-1">
 
         {{-- isi konten --}}
         @yield('content')
