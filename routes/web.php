@@ -18,3 +18,10 @@ Route::get('/about', function () {
 
 Route::view('/contact', 'pages.contact');
 Route::view('/product', 'pages.product'); 
+
+
+Route::get('/latihan', function () {
+    $matakuliah = ['Pemrograman Web', 'Basis Data', 'UI/UX'];
+    return view('pages.latihan', ['matakuliah' => $matakuliah]);
+});
+
