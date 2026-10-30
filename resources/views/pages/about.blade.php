@@ -1,5 +1,3 @@
-//about.blade.php
-
 @extends('layouts.master')
 
 @section('content')

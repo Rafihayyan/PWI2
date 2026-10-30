@@ -1,4 +1,3 @@
-//contact.blade.php
 
 @extends('layouts.master')
 
